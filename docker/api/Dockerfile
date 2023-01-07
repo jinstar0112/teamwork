@@ -14,3 +14,6 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 RUN chmod +x /home/docker/api/startup.sh
 ENTRYPOINT /home/docker/api/startup.sh
+#
+#
+#
